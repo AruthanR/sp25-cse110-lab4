@@ -82,6 +82,21 @@ The `modifyArray` function loops through each element in the array `[1, 2, 3]` a
 
 18. in part2-question18.js
 
+19. The output of the code is:
+1  
+4  
+3  
+2
+
+Explanation: `console.log(1)` runs first, then `console.log(4)` runs right after because both are normal synchronous code. `console.log(3)` is scheduled with a timeout of 0, so it runs next after the main code finishes. `console.log(2)` runs last because it’s delayed by 1 s.
+
+
+
+
+
+
+
+
 
 
 
