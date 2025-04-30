@@ -77,7 +77,13 @@ F. true === Boolean(2) → true
 
 16. in part2-question16.js
 
-17. 
+17. The result of `modifyArray([1, 2, 3], doSomething)` is `[2, 4, 6]`.
+The `modifyArray` function loops through each element in the array `[1, 2, 3]` and applies the `doSomething` callback to each one. The `doSomething` function doubles the input number, so: `doSomething(1)` → 2; `doSomething(2)` → 4; `doSomething(3)` → 6. Each result is pushed to `newArr`, which is returned as `[2, 4, 6]`.
+
+18. in part2-question18.js
+
+
+
 
 
 
